@@ -1,0 +1,108 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.tasklist{
+    list-style-type:none;
+}
+
+li{
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+}
+.list{
+ width:600px;
+ height:600px;
+ margin:auto;
+ margin-top:10%;
+ border-radius:20px;
+ background-color:#90B5FC;
+ text-align: center;
+ padding:20px;
+ padding-left: 30px;
+ padding-right: 30px;
+}
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header img{
+    height:25px;
+    width:25px;
+    margin-left:10px;
+    margin-top:-0.6rem;
+}
+.header{
+    height:20%;
+}
+.header h1{
+    margin-bottom:0.5rem;
+    color:white;
+}
+#newtask{
+    width:78%;
+    height:40px;
+    padding:10px;
+    float:left;
+    border-radius:10px;
+    color:#6C63FF;
+    border:#6C63FF;
+    outline:none;
+    font-size: 1rem;
+}
+#newtask::placeholder{
+    color:#6C63FF;
+    font-size:0.8rem;
+}
+.header button{
+    height:40px;
+    width:19%;
+    border-radius:10px;
+    background-color:#6C63FF;
+    color:white;
+    font-weight: bolder;
+    font-size:1.2rem;
+    border:none;
+}
+.header button:hover{
+    background-color: #b61fd4;
+    color:#CADCFC;
+}
+.tasklist li{
+    width:90%;
+    background-color: white;
+    height:40px;
+    border-radius:10px;
+    margin-bottom: 1.5rem;
+}
+.scrollbox{
+    height:80%;
+    overflow:auto;
+}
+.check{
+    margin-left:1rem;
+    margin-right:1rem;
+    transform: scale(1.5);
+ }
+ .taskname{
+    width:90%;
+    font-size:1.4rem;
+    color:#6C63FF;
+    text-align: left;
+ }
+ .deletesymbol,.repeatsymbol{
+    color: #6C63FF;
+    font-size:18px;
+    margin-right:1rem;
+ }
+
+
+
+
+
+
+
